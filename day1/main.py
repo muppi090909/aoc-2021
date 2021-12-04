@@ -11,6 +11,6 @@ for i in file:
     if int(i) > int(pre_i):
         increased += 1
     pre_i = i
-#shut down and show output
+#shut down and show
 file.close()
 print(f"the depth increased {increased-1} times")
